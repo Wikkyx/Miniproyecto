@@ -10,6 +10,7 @@ public class Cafeteria {
 //Declaración de variables
 private double precio,cant, cant1, cant2, cant3, cant4, cant5, cant6 ,cant7, cant8, cant9, cant10, cant11, cant12, precio_total,jbtot,jbdes;
 private int lol;
+private String hola;
 
 //Métodos de la clase
 public void FijarValor(double cantv, double preciov)
