@@ -114,7 +114,7 @@ public double Cantidad12 ()
 		//Declaración de variables
 		double cantv, preciov=0, precio1=0, precio2=0, precio3=0, precio4=0, precio5=0, precio6=0, precio7=0, precio8=0, precio9=0, precio10=0, precio11=0, precio12=0;
 		double cant1=0, cant2=0, cant3=0, cant4=0, cant5=0, cant6=0, cant7=0 ,cant8=0, cant9=0, cant10=0, cant11=0, cant12=0, extra=0,cont=0;
-		int entv = 0, stars=0, valoracion=0,contcliente=0 ;
+		int entv = 0, stars=0, valoracion=0,contcliente=0,hs;
 		double total=0,preciotv = 0;
 		double jbtotal, jbdescuento = 0;
 		double descuento = 0, preciocondesc;
@@ -439,7 +439,8 @@ public double Cantidad12 ()
 
 		
 }
-	
+	//Nueva variable 
+	hs=2;
 	//Porcentajes
 	porcentaje_item1 = (cont_prec1/total)*100;
 	porcentaje_item2 = (cont_prec2/total)*100;
@@ -456,6 +457,7 @@ public double Cantidad12 ()
 	
 	//Impresión de la consulta
 	preciocondesc = total-descuento;
+	System.out.printf("estamos trabajando ", hs);
 	System.out.printf("\nLo que se vendió en el día: %.2f", total);
 	System.out.printf("\nLo que se dio en descuento: %.2f", descuento);
 	System.out.printf("\nLo que se vendió con descuento: %.2f", preciocondesc);
@@ -486,7 +488,7 @@ public double Cantidad12 ()
 	System.out.print('%');
 	System.out.println("\nEstrellas obtenidas al final:");
 	System.out.println(stars + "  de  " + contcliente*5);
-
+    
 
 
 }
