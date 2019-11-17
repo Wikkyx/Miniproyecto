@@ -121,7 +121,7 @@ public double Cantidad12 ()
 		double cont_prec1 = 0,cont_prec2 = 0,cont_prec3 = 0,cont_prec4 = 0,cont_prec5 = 0,cont_prec6 = 0,cont_prec7 = 0,cont_prec8 = 0,cont_prec9 = 0,cont_prec10 = 0,cont_prec11 = 0,cont_prec12 = 0;
 		double porcentaje_item1=0,porcentaje_item2=0,porcentaje_item3=0,porcentaje_item4=0,porcentaje_item5=0,porcentaje_item6=0,porcentaje_item7=0,porcentaje_item8=0,porcentaje_item9=0,porcentaje_item10=0,porcentaje_item11=0,porcentaje_item12=0;
 		char a='s', b='s', caramelo,comboagrandado, jubilado;
-		
+		String ab = "El Mejor soy yo";
 		
 		//Creación del objeto
 		Scanner sc=new Scanner(System.in);
@@ -486,7 +486,7 @@ public double Cantidad12 ()
 	System.out.print('%');
 	System.out.println("\nEstrellas obtenidas al final:");
 	System.out.println(stars + "  de  " + contcliente*5);
-
+	System.out.println(ab);
 
 
 }
