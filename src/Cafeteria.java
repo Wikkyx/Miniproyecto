@@ -26,7 +26,14 @@ precio=preciov;
 public void Fijar_preciototal(double preciotv) {
 	precio_total=preciotv;
 }
-
+public double SUMA() {
+double tupapa;
+tupapa=cant+2;
+	return tupapa;
+	
+	
+	
+}
 public double Preciosf ()
 {
 	double respuesta;
@@ -488,18 +495,6 @@ public double Cantidad12 ()
 	System.out.print('%');
 	System.out.println("\nEstrellas obtenidas al final:");
 	System.out.println(stars + "  de  " + contcliente*5);
-<<<<<<< HEAD
 	System.out.println(ab);
-=======
-    
->>>>>>> a28cd933c351a7630f79a9ba3db1a444d244451a
-
-
 }
 }
-	
-
-	
-		
-
-
