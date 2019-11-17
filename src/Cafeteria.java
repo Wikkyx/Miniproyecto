@@ -109,6 +109,13 @@ public double Cantidad12 ()
 	return cant12;
 }
 
+public double Cantidad13 ()
+{
+	double cantidad 13=1;
+	return cantidad 13;
+	
+}
+
 	//Programa Principal
 	public static void main(String[] args) {
 		
@@ -487,7 +494,13 @@ public double Cantidad12 ()
 	System.out.print('%');
 	System.out.println("\nEstrellas obtenidas al final:");
 	System.out.println(stars + "  de  " + contcliente*5);
+<<<<<<< Updated upstream
 
+=======
+	System.out.println(ab);
+
+    
+>>>>>>> Stashed changes
 
 
 }
