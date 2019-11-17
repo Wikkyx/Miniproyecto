@@ -11,8 +11,7 @@ public class Cafeteria {
 private double precio,cant, cant1, cant2, cant3, cant4, cant5, cant6 ,cant7, cant8, cant9, cant10, cant11, cant12, precio_total,jbtot,jbdes;
 private int lol;
 private String hola;
-private double h;
-
+private int hs;
 //Métodos de la clase
 public void FijarValor(double cantv, double preciov)
 {
@@ -27,7 +26,14 @@ precio=preciov;
 public void Fijar_preciototal(double preciotv) {
 	precio_total=preciotv;
 }
-
+public double SUMA() {
+double tupapa;
+tupapa=cant+2;
+	return tupapa;
+	
+	
+	
+}
 public double Preciosf ()
 {
 	double respuesta;
@@ -122,14 +128,14 @@ public double Cantidad13 ()
 		//Declaración de variables
 		double cantv, preciov=0, precio1=0, precio2=0, precio3=0, precio4=0, precio5=0, precio6=0, precio7=0, precio8=0, precio9=0, precio10=0, precio11=0, precio12=0;
 		double cant1=0, cant2=0, cant3=0, cant4=0, cant5=0, cant6=0, cant7=0 ,cant8=0, cant9=0, cant10=0, cant11=0, cant12=0, extra=0,cont=0;
-		int entv = 0, stars=0, valoracion=0,contcliente=0 ;
+		int entv = 0, stars=0, valoracion=0,contcliente=0,hs;
 		double total=0,preciotv = 0;
 		double jbtotal, jbdescuento = 0;
 		double descuento = 0, preciocondesc;
 		double cont_prec1 = 0,cont_prec2 = 0,cont_prec3 = 0,cont_prec4 = 0,cont_prec5 = 0,cont_prec6 = 0,cont_prec7 = 0,cont_prec8 = 0,cont_prec9 = 0,cont_prec10 = 0,cont_prec11 = 0,cont_prec12 = 0;
 		double porcentaje_item1=0,porcentaje_item2=0,porcentaje_item3=0,porcentaje_item4=0,porcentaje_item5=0,porcentaje_item6=0,porcentaje_item7=0,porcentaje_item8=0,porcentaje_item9=0,porcentaje_item10=0,porcentaje_item11=0,porcentaje_item12=0;
 		char a='s', b='s', caramelo,comboagrandado, jubilado;
-		
+		String ab = "El Mejor soy yo";
 		
 		//Creación del objeto
 		Scanner sc=new Scanner(System.in);
@@ -447,7 +453,8 @@ public double Cantidad13 ()
 
 		
 }
-	
+	//Nueva variable 
+	hs=2;
 	//Porcentajes
 	porcentaje_item1 = (cont_prec1/total)*100;
 	porcentaje_item2 = (cont_prec2/total)*100;
@@ -464,6 +471,7 @@ public double Cantidad13 ()
 	
 	//Impresión de la consulta
 	preciocondesc = total-descuento;
+	System.out.printf("estamos trabajando ", hs);
 	System.out.printf("\nLo que se vendió en el día: %.2f", total);
 	System.out.printf("\nLo que se dio en descuento: %.2f", descuento);
 	System.out.printf("\nLo que se vendió con descuento: %.2f", preciocondesc);
@@ -494,20 +502,5 @@ public double Cantidad13 ()
 	System.out.print('%');
 	System.out.println("\nEstrellas obtenidas al final:");
 	System.out.println(stars + "  de  " + contcliente*5);
-<<<<<<< Updated upstream
-
-=======
-	System.out.println(ab);
-
-    
->>>>>>> Stashed changes
-
 
 }
-}
-	
-
-	
-		
-
-
